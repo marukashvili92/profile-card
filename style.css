@@ -1,0 +1,82 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #19A1AE;
+    background-image: url(./bg-pattern-top.svg), url(./bg-pattern-bottom.svg);
+    
+    background-position-x: -80%, 170%;
+    background-position-y: 170%, -105%;
+    background-repeat: no-repeat, no-repeat;
+}
+main{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./bg-pattern-card.svg);
+    background-repeat:no-repeat;
+    background-color:  white;
+    border-radius: 15px;
+}
+img{
+    align-self: center;
+    margin-top: 87px;
+    width: 96px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #E8E9EC;
+    padding: 24px 48.5px 27px ;
+    margin-top: 28px;
+}
+
+.wraped{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 1.125rem;
+    color:#2E3349;
+    margin-bottom: 7px;
+}
+p{
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: #6B7082;
+    letter-spacing: 1.5px;
+}
+span{
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #6B7082;
+}
+.city{
+    font-size: 0.875rem;
+    letter-spacing: 0;
+}
+
+@media (max-width: 720px){
+    body{
+        background-position-x: 110%, -20%;
+        background-position-y: 500%, -330%;
+    }
+    main{
+        width: 326px;
+    }
+} 
